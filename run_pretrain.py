@@ -6,33 +6,30 @@ from transformers import AdamW, get_linear_schedule_with_warmup
 import pkbar
 
 batch_size = 32
-# model_path = 'hfl/chinese-roberta-wwm-ext'
-model_path = 'hfl/rbt3'
+model_path = 'hfl/chinese-roberta-wwm-ext'
+# model_path = 'hfl/rbt3'
 adam_epsilon = 1e-8
-lr = 5e-5
-device = 'cuda'
+lr = 2e-5
+device = 'cuda:1'
 steps = 1000000
 grad_accumulation_steps = 4
 save_every = 100000
 
 
-
 def get_data(path):
     ret = []
     _, name = os.path.split(path)
-
     name = name.split('_')[0]
     for idx, line in enumerate(tqdm.tqdm(open(path))):
         line = json.loads(line)
         line['task'] = name
         ret.append(line)
-
     return ret
 
 
-seq2seq_data = '/home/vocust001/xly/ccc/seq2seq_data.json'
-lm_data = '/home/vocust001/xly/ccc/lm_data.json'
-mlm_data = '/home/vocust001/xly/ccc/mlm_data.json'
+seq2seq_data = './data/seq2seq_data.json'
+lm_data = './data/lm_data.json'
+mlm_data = './data/mlm_data.json'
 
 print('start reading data')
 seq2seq_data = get_data(seq2seq_data)
@@ -136,7 +133,6 @@ class UnilmForPreTraining(BertForPreTraining):
 model = UnilmForPreTraining.from_pretrained(model_path)
 model.to(device)
 
-
 param_optimizer = list(model.named_parameters())
 no_decay = ['bias', 'LayerNorm.bias', 'LayerNorm.weight']
 optimizer_grouped_parameters = [
@@ -201,6 +197,6 @@ for step in range(steps * grad_accumulation_steps):
         progress.update(step, values=[('loss: ', round(print_loss, 4))])
         print_loss = 0
 
-    if (step+1) % (grad_accumulation_steps * save_every) == 0:
+    if (step + 1) % (grad_accumulation_steps * save_every) == 0:
         save_name = 'model_step_{}_loss_{}'.format(step, round(print_loss, 4))
         torch.save(model.state_dict(), save_name)

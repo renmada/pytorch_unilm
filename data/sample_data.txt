@@ -1,0 +1,41 @@
+uui_call_id	content	channel	chunk_name	additional_info	short
+0	d58472e4-f0eb-408f-ab76-870c5d2feabb	你好，ai 管家有什么可以帮您的？	0	NaN	NaN	False
+1	d58472e4-f0eb-408f-ab76-870c5d2feabb	转人工。	1	NaN	NaN	False
+2	d58472e4-f0eb-408f-ab76-870c5d2feabb	好的，现在帮您转接服务中心，请稍等。	0	NaN	NaN	False
+5	d58472e4-f0eb-408f-ab76-870c5d2feabb	你好，请问是哪位？	0	NaN	NaN	False
+6	d58472e4-f0eb-408f-ab76-870c5d2feabb	喂，你好。	1	NaN	NaN	False
+7	d58472e4-f0eb-408f-ab76-870c5d2feabb	喂，请问您k 有那种宽的胶布啊？	1	NaN	NaN	False
+8	d58472e4-f0eb-408f-ab76-870c5d2feabb	宽胶带是吧。	0	NaN	NaN	False
+9	d58472e4-f0eb-408f-ab76-870c5d2feabb	对，就是封封封封箱这种宽胶带。	1	NaN	NaN	False
+10	d58472e4-f0eb-408f-ab76-870c5d2feabb	我怎么找啊，有的。	0	NaN	NaN	False
+11	d58472e4-f0eb-408f-ab76-870c5d2feabb	哦，麻烦您送，送我一下，到八八零三可以吗？	1	NaN	NaN	False
+12	d58472e4-f0eb-408f-ab76-870c5d2feabb	八八零三是吧。	0	NaN	NaN	False
+13	d58472e4-f0eb-408f-ab76-870c5d2feabb	好，可以，到时候您退保拿下来就行了哈。	0	NaN	NaN	False
+14	d58472e4-f0eb-408f-ab76-870c5d2feabb	好，您就喊那个机器人送过来就可以了。	1	NaN	NaN	False
+15	d58472e4-f0eb-408f-ab76-870c5d2feabb	嗯，好，八八零三。嗯，不客气。	0	NaN	NaN	False
+16	d58472e4-f0eb-408f-ab76-870c5d2feabb	好，谢谢。	1	NaN	NaN	False
+17	9a40957f-4037-4f71-aa9c-e4575cf60f31	你好，上海丽陈悦，请问有什么可以帮到您？	1	NaN	NaN	False
+18	9a40957f-4037-4f71-aa9c-e4575cf60f31	你好，我想问一下f i 密码是多少？	0	NaN	NaN	False
+19	9a40957f-4037-4f71-aa9c-e4575cf60f31	您看一下桌上有机顶盒吗？	1	NaN	NaN	False
+20	9a40957f-4037-4f71-aa9c-e4575cf60f31	苏苏州。	1	NaN	NaN	False
+21	9a40957f-4037-4f71-aa9c-e4575cf60f31	一九再见。	0	NaN	NaN	False
+22	9a40957f-4037-4f71-aa9c-e4575cf60f31	是多少？	1	NaN	NaN	False
+23	9a40957f-4037-4f71-aa9c-e4575cf60f31	哦，我有。	0	NaN	NaN	False
+24	9a40957f-4037-4f71-aa9c-e4575cf60f31	密码在后面。	1	NaN	NaN	False
+26	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	您好，酒店前台。	1	NaN	NaN	False
+27	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	喂。	0	NaN	NaN	True
+28	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	喂，你好，我这边是成都郦城来住酒店前台，请问是今天入住二一五房间钟点房的客人吗？	1	NaN	NaN	False
+29	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	嗯，对。	0	NaN	NaN	False
+30	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	您好，女士，您的钟点房时间已经到了哟。	1	NaN	NaN	False
+31	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	我们都已经退房了呀。	0	NaN	NaN	False
+32	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	哦，已经退房了，房卡当时有还到前台还是。	1	NaN	NaN	False
+33	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	有有有。	0	NaN	NaN	False
+34	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	哦，好的好的，没问题。嗯，好，不好意思，打扰您了。女士嗯，好，再见。	1	NaN	NaN	False
+35	193b3d6e-e1f5-4b15-8983-ad9f45b64d13	没关系。	0	NaN	NaN	False
+36	d865b877-2641-41e7-9aee-0e52f690fc39	您好，前台请问有什么可以帮您？	1	NaN	NaN	False
+37	d865b877-2641-41e7-9aee-0e52f690fc39	你好，我这个房间不是今天到嘛，然后我在携程又订了一天，就不用换了，就直接直接再住一天。	0	NaN	NaN	False
+38	d865b877-2641-41e7-9aee-0e52f690fc39	行，可以可以，没有问题。	1	NaN	NaN	False
+39	d865b877-2641-41e7-9aee-0e52f690fc39	那我那我跟你说一下嘛，你你也自己要备注一下吗？	0	NaN	NaN	False
+40	d865b877-2641-41e7-9aee-0e52f690fc39	行，好的好的，没问题的。	1	NaN	NaN	False
+41	d865b877-2641-41e7-9aee-0e52f690fc39	那还有一个房间，我订的是两个房间，还有一个。	0	NaN	NaN	False
+42	d865b877-2641-41e7-9aee-0e52f690fc39	行行行，可以没问题。	1	NaN	NaN	False
